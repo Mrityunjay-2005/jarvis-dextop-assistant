@@ -1,0 +1,52 @@
+**Application for Sick Leave**
+
+**Employee Information:**
+
+* Name: _____________________________________
+* Employee ID: _______________________________
+* Job Title: __________________________________
+* Department: __________________________________
+
+**Sick Leave Details:**
+
+* Date of Absence: _____________________________
+* Date of Return: ______________________________
+* Number of Days of Sick Leave Required: ________
+
+**Reason for Absence:**
+
+* Please provide a brief description of the illness or medical condition that is preventing you from attending work:
+_____________________________________________________________________
+
+**Medical Certificate:**
+
+* Have you obtained a medical certificate from a licensed physician or healthcare provider? If yes, please attach a copy to this application.
+* If no, please indicate the reason why you are unable to obtain a medical certificate.
+
+**Other Relevant Information:**
+
+* Are you experiencing any symptoms or complications that may impact your ability to return to work as expected? If yes, please describe:
+_____________________________________________________________________
+
+* Are there any special arrangements or accommodations that you may need to facilitate your return to work? If yes, please describe:
+_____________________________________________________________________
+
+**Certification:**
+
+* I hereby certify that the information provided in this application is true and accurate to the best of my knowledge.
+* I understand that providing false information may result in disciplinary action.
+
+Signature: ______________________________________
+Date: __________________________________________
+
+**Note:**
+
+* This application must be submitted to the HR department at least 24 hours prior to the start of the sick leave.
+* The HR department reserves the right to request additional information or documentation to support the sick leave application.
+* The use of sick leave is subject to the company's sick leave policy and applicable laws.
+
+**Additional Documents:**
+
+* Please attach any additional documents that support your sick leave application, such as a doctor's note or a medical certificate.
+
+Note: This is a sample application form and may vary based on your company's policies and procedures.

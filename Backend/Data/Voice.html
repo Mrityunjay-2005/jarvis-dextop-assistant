@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Speech Recognition</title>
+</head>
+<body>
+    <button id="start">Start Recognition</button>
+    <button id="stop">Stop Recognition</button>
+    <p id="output"></p>
+    <script>
+        const output = document.getElementById('output');
+        let recognition;
+        let finalTranscript = '';
+
+        document.getElementById('start').addEventListener('click', () => {
+            recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+            recognition.lang = 'en';
+            recognition.continuous = true;
+            recognition.interimResults = false;
+
+            recognition.onresult = (event) => {
+                const transcript = Array.from(event.results)
+                    .map(result => result[0])
+                    .map(result => result.transcript)
+                    .join('');
+                finalTranscript = transcript;
+                output.textContent = finalTranscript;
+            };
+
+            recognition.onerror = (event) => {
+                console.error('Recognition error:', event.error);
+            };
+
+            recognition.start();
+        });
+
+        document.getElementById('stop').addEventListener('click', () => {
+            if (recognition) {
+                recognition.stop();
+            }
+        });
+    </script>
+</body>
+</html>
